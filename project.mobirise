@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Illustration.html",
+    "currentPage": "Homepage.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -9,7 +9,7 @@
         "primaryColor": "#000000",
         "secondaryColor": "#000000",
         "successColor": "#c1c1c1",
-        "infoColor": "#efefef",
+        "infoColor": "#ffffff",
         "warningColor": "#f3c649",
         "dangerColor": "#ff4141",
         "titleFont": "Roboto",
@@ -19,10 +19,13 @@
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#ff2929"
+      ]
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 50,
+    "uniqCompNum": 54,
     "versionPublish": "4.6.5",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -31,9 +34,91 @@
     "Illustration.html": {
       "settings": {
         "order": 3,
-        "title": "undefined"
+        "title": "Illustration"
       },
       "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-lead": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "autoplay": false,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": "8",
+            "paddingTop": "6",
+            "paddingBottom": "2",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-2-1689x1191.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "Watch Boxes",
+                "showText": false,
+                "text": "From a box to a sculpture",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-4-1689x1191.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDER",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-1-1594x1140.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "overlay": false,
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "BACKGROUND VIDEO",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-3-1689x1191.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "overlay": false,
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "BACKGROUND VIDEO",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider2",
+          "_anchor": "slider2-1f"
+        },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-lead": {
@@ -372,7 +457,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x1556-800x622.jpg",
-                "image": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x15563.jpg",
+                "image": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x15565.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -603,7 +688,7 @@
     "Biografie.html": {
       "settings": {
         "order": 2,
-        "title": ""
+        "title": "Biografie"
       },
       "components": [
         {
@@ -638,8 +723,8 @@
             "bgColor": "#fff"
           },
           "text1": "<p>Born</p><p>Jan Vandeplancke was born in Gent during the nineties. He grew up in several towns around flanders but eventualy turned back to Gent. Maybe the city where he will stay for ever...</p>",
-          "text2": "<p>Studiet</p><p>2015- now &nbsp;illustration at SInt Lucas Gent</p><p>2012-2015 Free arts at Sint lucas KSO Antwerp</p>",
-          "text3": "<p>Expositions</p><p>Upcomming: Cultuurcentrum Mechelen september 2017</p><p><br></p>"
+          "text2": "<p>Studiet</p><p>2015- now &nbsp;illustration at SInt Lucas Gent</p><p>2012-2015 Free arts at Sint lucas KSO Antwerp</p><p>2015-... Illustration at Luca school of arts Ghent</p>",
+          "text3": "<p>Expositions</p><p>\"Heisa\" Solo exposition at Cultuurcentrum Mechelen 2017</p><p><br></p>"
         },
         {
           "_tags": [
@@ -652,7 +737,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text1": "<p>Books</p><p>Zoals het ooit begon en hoe het nu eenmaal gaat. 2015</p>",
+          "text1": "<p>Books</p><p>\"Zoals het ooit begon en hoe het nu eenmaal gaat\" 2015</p>",
           "text2": "<p>Projects</p><p>No ungoing projects</p>",
           "text3": "<p>Content</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>...</p>"
         },
@@ -785,7 +870,8 @@
     },
     "Contact.html": {
       "settings": {
-        "order": 6
+        "order": 6,
+        "title": "Contact"
       },
       "components": [
         {
@@ -955,7 +1041,8 @@
     },
     "Sketchbook.html": {
       "settings": {
-        "order": 4
+        "order": 4,
+        "title": "Sketchbook"
       },
       "components": [
         {
@@ -980,6 +1067,88 @@
           },
           "title": "A litle look into my sketchbook",
           "meta": "Where idea's develope and where everything is possible"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-lead": {
+              "color": "#fff"
+            },
+            "P": {
+              "font-size": "30px"
+            }
+          },
+          "_params": {
+            "autoplay": false,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": "8",
+            "paddingTop": "6",
+            "paddingBottom": "2",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-2-1689x1191.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "Watch Boxes",
+                "showText": false,
+                "text": "From a box to a sculpture",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-4-1689x1191.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "IMAGE SLIDER",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-1-1594x1140.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "overlay": false,
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "BACKGROUND VIDEO",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-3-1689x1191.jpg",
+                "playVideo": false,
+                "videoUrl": "",
+                "overlay": false,
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "BACKGROUND VIDEO",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider2",
+          "_anchor": "slider2-1h"
         },
         {
           "_styles": {
@@ -1232,7 +1401,7 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.5
           },
-          "title": "My name is Jan&nbsp;<br><br>",
+          "title": "<span style=\"font-weight: normal;\">My name is Jan&nbsp;<br></span><br>",
           "text": "<p><span style=\"line-height: 1.5;\">I am a young illustrator living in gent and this is my website!</span></p><p><span style=\"line-height: 1.5;\">&nbsp;</span><a href=\"Biografie.html\" class=\"text-danger\" style=\"line-height: 1.5; background-color: rgb(255, 255, 255);\">Something about me..</a></p><p><br></p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> "
         },

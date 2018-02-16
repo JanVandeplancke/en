@@ -85,7 +85,7 @@ h6,
   background-color: #c1c1c1 !important;
 }
 .bg-info {
-  background-color: #efefef !important;
+  background-color: #ffffff !important;
 }
 .bg-warning {
   background-color: #f3c649 !important;
@@ -134,8 +134,8 @@ h6,
   border-color: #000000 !important;
 }
 .btn-info {
-  background-color: #efefef;
-  border-color: #efefef;
+  background-color: #ffffff;
+  border-color: #ffffff;
   color: #ffffff;
 }
 .btn-info:hover,
@@ -144,14 +144,14 @@ h6,
 .btn-info:active,
 .btn-info.active {
   color: #ffffff;
-  background-color: #c9c9c9;
-  border-color: #c9c9c9;
+  background-color: #d4d4d4;
+  border-color: #d4d4d4;
 }
 .btn-info.disabled,
 .btn-info:disabled {
   color: #ffffff !important;
-  background-color: #c9c9c9 !important;
-  border-color: #c9c9c9 !important;
+  background-color: #d4d4d4 !important;
+  border-color: #d4d4d4 !important;
 }
 .btn-success {
   background-color: #c1c1c1;
@@ -255,8 +255,8 @@ h6,
 }
 .btn-info-outline {
   background: none;
-  border-color: #bcbcbc;
-  color: #bcbcbc;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
@@ -264,14 +264,14 @@ h6,
 .btn-info-outline:active,
 .btn-info-outline.active {
   color: #ffffff;
-  background-color: #efefef;
-  border-color: #efefef;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
   color: #ffffff !important;
-  background-color: #efefef !important;
-  border-color: #efefef !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 .btn-success-outline {
   background: none;
@@ -340,7 +340,7 @@ h6,
   color: #c1c1c1 !important;
 }
 .text-info {
-  color: #efefef !important;
+  color: #ffffff !important;
 }
 .text-warning {
   color: #f3c649 !important;
@@ -352,7 +352,7 @@ h6,
   background-color: #c1c1c1;
 }
 .alert-info {
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .alert-warning {
   background-color: #f3c649;
@@ -411,6 +411,13 @@ h6,
 .mbr-small-footer a,
 .mbr-gallery-filter li:hover {
   color: #000000;
+}
+#slider2-1f .mbr-section-title,
+#slider2-1f .mbr-section-lead {
+  color: #fff;
+}
+#slider2-1f P {
+  font-size: 30px;
 }
 #slider2-w .mbr-section-title,
 #slider2-w .mbr-section-lead {
@@ -656,6 +663,13 @@ h6,
 }
 #header3-13 H3 {
   font-size: 46px;
+}
+#slider2-1h .mbr-section-title,
+#slider2-1h .mbr-section-lead {
+  color: #fff;
+}
+#slider2-1h P {
+  font-size: 30px;
 }
 #menu-l .hide-buttons .nav-btn {
   display: none !important;
