@@ -412,11 +412,11 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #000000;
 }
-#slider2-1f .mbr-section-title,
-#slider2-1f .mbr-section-lead {
+#slider2-1i .mbr-section-title,
+#slider2-1i .mbr-section-lead {
   color: #fff;
 }
-#slider2-1f P {
+#slider2-1i P {
   font-size: 30px;
 }
 #slider2-w .mbr-section-title,
@@ -663,13 +663,6 @@ h6,
 }
 #header3-13 H3 {
   font-size: 46px;
-}
-#slider2-1h .mbr-section-title,
-#slider2-1h .mbr-section-lead {
-  color: #fff;
-}
-#slider2-1h P {
-  font-size: 30px;
 }
 #menu-l .hide-buttons .nav-btn {
   display: none !important;

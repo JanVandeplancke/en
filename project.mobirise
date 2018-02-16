@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Homepage.html",
+    "currentPage": "Illustration.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -25,7 +25,7 @@
       ]
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 54,
+    "uniqCompNum": 56,
     "versionPublish": "4.6.5",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -55,8 +55,23 @@
             "paddingBottom": "2",
             "slides": [
               {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/heisa-tijger-2-2000x1125.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Watch Boxes",
+                "showText": true,
+                "text": "From a box to a sculpture",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
+              },
+              {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-2-1689x1191.jpg",
+                "image": "@PROJECT_PATH@/assets/images/heisa-tijger-1-2000x1125.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -71,45 +86,33 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-4-1689x1191.jpg",
+                "image": "@PROJECT_PATH@/assets/images/heisa-insect-1-2000x1125.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
-                "contentAlign": "right",
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
                 "showTitle": false,
-                "title": "IMAGE SLIDER",
+                "title": "Watch Boxes",
                 "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "text": "From a box to a sculpture",
                 "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-1-1594x1140.jpg",
+                "image": "@PROJECT_PATH@/assets/images/heisa-tijger-3-2000x1125.jpg",
                 "playVideo": false,
-                "videoUrl": "",
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
-                "contentAlign": "left",
+                "overlayOpacity": "0.6",
+                "contentAlign": "center",
                 "showTitle": false,
-                "title": "BACKGROUND VIDEO",
+                "title": "Watch Boxes",
                 "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "text": "From a box to a sculpture",
                 "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-3-1689x1191.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "overlay": false,
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "BACKGROUND VIDEO",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
               }
             ]
           },
@@ -117,7 +120,7 @@
             "Theme"
           ],
           "_name": "slider2",
-          "_anchor": "slider2-1f"
+          "_anchor": "slider2-1i"
         },
         {
           "_styles": {
@@ -457,7 +460,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x1556-800x622.jpg",
-                "image": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x15565.jpg",
+                "image": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x15566.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -1069,86 +1072,65 @@
           "meta": "Where idea's develope and where everything is possible"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-lead": {
-              "color": "#fff"
-            },
-            "P": {
-              "font-size": "30px"
-            }
-          },
           "_params": {
-            "autoplay": false,
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "showBullets": true,
             "bgColor": "#fff",
-            "timeout": "8",
-            "paddingTop": "6",
-            "paddingBottom": "2",
+            "timeout": 5,
             "slides": [
               {
-                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-2-1689x1191.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
-                "overlayOpacity": "0.6",
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "Watch Boxes",
-                "showText": false,
-                "text": "From a box to a sculpture",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> "
-              },
-              {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-4-1689x1191.jpg",
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Koptekst",
                 "overlay": false,
-                "contentAlign": "right",
-                "showTitle": false,
-                "title": "IMAGE SLIDER",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
+                "contentAlign": "center",
+                "text": "ondertekst",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-4-1689x1191.jpg",
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-1-1594x1140.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "overlay": false,
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "BACKGROUND VIDEO",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "showText": false,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Koptekst",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "ondertekst",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
+                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-1-1594x1140.jpg",
                 "active": true,
-                "image": "@PROJECT_PATH@/assets/images/jan-vandeplancke-we-free-kings-3-1689x1191.jpg",
-                "playVideo": false,
-                "videoUrl": "",
-                "overlay": false,
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "BACKGROUND VIDEO",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "showText": false,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "Koptekst",
+                "overlay": false,
+                "contentAlign": "center",
+                "text": "ondertekst",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
           },
+          "articleLayout": false,
           "_tags": [
             "Theme"
           ],
-          "_name": "slider2",
-          "_anchor": "slider2-1h"
+          "_name": "slider3",
+          "_anchor": "slider3-1j"
         },
         {
           "_styles": {
