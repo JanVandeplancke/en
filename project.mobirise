@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Commissioned Works.html",
+    "currentPage": "Free Works.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -575,7 +575,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x1556-800x622.jpg",
-                "image": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x15567.jpg",
+                "image": "@PROJECT_PATH@/assets/images/scan-20-def-low-2000x15568.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -1920,13 +1920,13 @@
         },
         {
           "_params": {
-            "autoplay": true,
+            "autoplay": false,
             "fullScreen": false,
             "paddingTop": "4",
             "paddingBottom": "1",
             "showBullets": true,
             "bgColor": "#fff",
-            "timeout": "6",
+            "timeout": "5",
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/cassette-moar-1-2000x759.jpg",
@@ -1995,7 +1995,7 @@
         },
         {
           "_params": {
-            "autoplay": true,
+            "autoplay": false,
             "fullScreen": false,
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -2269,7 +2269,7 @@
         },
         {
           "_params": {
-            "autoplay": true,
+            "autoplay": false,
             "fullScreen": false,
             "paddingTop": "2",
             "paddingBottom": 3,
