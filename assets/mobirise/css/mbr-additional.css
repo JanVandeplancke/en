@@ -451,11 +451,11 @@ h6,
   font-family: 'Roboto', sans-serif;
 }
 #menu-c .link {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 #menu-c .dropdown-item,
 #menu-c .nav-dropdown-sm .link {
-  font-size: 0.758rem;
+  font-size: 0.650rem;
 }
 #menu-c .link:hover,
 #menu-c .dropdown-item:hover,
